@@ -91,7 +91,7 @@ public class Game implements Serializable
    {
       this.smallest = 0;
       this.guess = 0;
-      this.remainingGuesses = 30;
+      this.remainingGuesses = 10;
       this.biggest = maxNumber;
       this.number = randomNumber.get();
    }
